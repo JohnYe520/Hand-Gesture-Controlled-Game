@@ -33,7 +33,7 @@ Run:
 python collect_gestures.py
 
 Controls
-| Key | Gesture |
+| Key | Gesture  |
 |-----|----------|
 | u   | up       |
 | d   | down     |
@@ -116,3 +116,4 @@ Gameplay:
 pip install torch torchvision opencv-python pygame matplotlib scikit-learn
 
 ```
+
