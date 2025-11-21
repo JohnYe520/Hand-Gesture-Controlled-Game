@@ -11,7 +11,7 @@ The system supports six gestures (`up`, `down`, `left`, `right`, `stop`, `zero`)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
@@ -114,4 +114,5 @@ Gameplay:
 
 ```bash
 pip install torch torchvision opencv-python pygame matplotlib scikit-learn
+
 ```
