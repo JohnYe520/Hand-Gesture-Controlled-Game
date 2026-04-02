@@ -110,12 +110,6 @@ Gameplay:
 
 - First HP bar to hit 0 loses
 
-## Dependencies
-
-```bash
-pip install torch torchvision opencv-python pygame matplotlib scikit-learn
-
-```
 ## 5. Results
 
 - Kaggle dataset: near 100% training accuracy with stable convergence
@@ -136,3 +130,11 @@ Although offline performance is near-perfect, real-time gameplay reveals practic
 - Occasional misclassification in live webcam input
 
 To address this, the game uses a **prompt-based interaction design** (capture-on-demand) instead of continuous gesture tracking, improving reliability during gameplay.
+
+
+## Dependencies
+
+```bash
+pip install torch torchvision opencv-python pygame matplotlib scikit-learn
+
+```
