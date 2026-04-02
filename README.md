@@ -116,4 +116,23 @@ Gameplay:
 pip install torch torchvision opencv-python pygame matplotlib scikit-learn
 
 ```
+## 5. Results
 
+- Kaggle dataset: near 100% training accuracy with stable convergence
+- Personalized dataset:
+  - Validation Accuracy: ~100%
+  - Macro F1 Score: 0.98–1.0
+  - Perfect confusion matrix (no misclassification across all gesture classes)
+
+These results show that the model adapts effectively to user-specific data and achieves strong classification performance.
+
+## 6. Real-Time Performance
+
+Although offline performance is near-perfect, real-time gameplay reveals practical challenges:
+
+- Sensitivity to lighting conditions
+- Motion blur during gesture execution
+- Inconsistent hand positioning within ROI
+- Occasional misclassification in live webcam input
+
+To address this, the game uses a **prompt-based interaction design** (capture-on-demand) instead of continuous gesture tracking, improving reliability during gameplay.
